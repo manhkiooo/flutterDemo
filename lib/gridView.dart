@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(MyApp2());
 
 class MainPage extends StatefulWidget{
   final String title;
@@ -63,7 +63,7 @@ class MainPageState extends State<MainPage>{
   }
 }
 
-class MyApp extends StatelessWidget {
+class MyApp2 extends StatelessWidget {
   final wordPair = WordPair.random();
   @override
   Widget build(BuildContext context) {
